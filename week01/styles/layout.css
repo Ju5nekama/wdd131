@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #322BFF;
+    /*imperial red*/
+    --secondary-color: #FF2B36;
+    /*hot magneta*/
+    --accent1-color: #ff0576;
+    --accent2-color: #180202;
+    /*black*/
+    --heading-font: "Roboto Mono", monospace;
+    --body-font: "ppen sans", ital;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 1rem 0 1rem;
+}
+
+header {
+    background-color: var(--primary-color);
+    margin: 1rem auto;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+p {
+    font-family: var(--body-font);
+}
+
+.plant img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.article img {
+    width: 20%;
+    height: auto;
+}
+
+.article {
+    display: flex;
+    background-color: #eeebec9d;
+    position: absolute;
+    top: 60%;
+
+
+}
+
+header,
+main,
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ 
